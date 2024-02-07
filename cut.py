@@ -1,8 +1,8 @@
 import re
 
-block2_file = "block2.txt"
-origin_file = "block.txt"
-final_output_file = "merged_block.txt"
+new_domains = "output_domains.txt"
+origin_file = "merged_block.txt"
+final_output_file = "merged_block2.txt"
 
 # Create a set to store unique lines from block.txt
 unique_lines_origin = set()
@@ -18,7 +18,7 @@ with open(final_output_file, "w") as output_file:
         output_file.write(unique_line_origin)
 
 # Process block2.txt and merge with the final output file
-with open(block2_file, "r") as block2_file, open(final_output_file, "a") as output_file:
+with open(new_domains, "r") as block2_file, open(final_output_file, "a") as output_file:
     for line in block2_file:
         # Use regex to remove 'www.' only if it exists at the beginning of the line
         new_line = re.sub(r'^www\.', '', line)

@@ -27,12 +27,12 @@ This repository is shared in the spirit of community and open-source collaborati
 
 A significant portion of the domain list in this repository was sourced from [Bon-Appetit/porn-domains](https://github.com/Bon-Appetit/porn-domains). We extend our gratitude to the contributors of that repository for their efforts.
 
-I combined their list with several others, as well as adding a significant number of domains myself. I will note that it is possible that their list is better maintained than my own and pretty much sticks to just adult content where I have expanded to adult "dating" and "stores".
+We combined their list with several others, as well as adding a significant number of domains myself. We will note that it is possible that their list is better maintained than my own and pretty much sticks to just adult content where we have expanded to adult "dating" and "stores".
 
 
 # Readme is a work in progress. 
 
-Will publish a full readme once I get the project working at some kind of scale. Ideally, we get a few web scrappers to go out and find domains actively, and update this list weekly/monthly/etc. For now... this is designed to work well with Pi-Hole, just add an adlist and use the raw git url for th eblack list. Maybe in the future I will break teh blacklist down into a few smaller ones for easy of use. One BIG file isn't exactly ideal once it gets big enough.I work on this in my free time and for free. I just want to save families. 
+Will publish a full readme once we get the project working at some kind of scale. Ideally, we get a few web scrappers to go out and find domains actively, and update this list weekly/monthly/etc. For now... this is designed to work well with Pi-Hole, just add an adlist and use the raw git url for th eblack list. Maybe in the future we will break teh blacklist down into a few smaller ones for easy of use. One BIG file isn't exactly ideal once it gets big enough. We work on this in our free time and for free. We just want to save families. 
 
 
 To submit a request to add a site to the list: https://forms.gle/sSLKo2UDgwM4Yhih9

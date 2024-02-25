@@ -2,12 +2,14 @@
 
 file_path = "merged_block.txt"
 domains_set = set()
+origin_len = 0
 
 # Load existing domains from file into a set
 try:
     with open(file_path, "r") as file:
         existing_domains = file.read().splitlines()
         domains_set.update(existing_domains)
+        origin_len = len(domains_set)
 except FileNotFoundError:
     # If the file doesn't exist yet, create an empty set
     existing_domains = []
@@ -26,4 +28,4 @@ while True:
 with open(file_path, "w") as file:
     file.write("\n".join(sorted(domains_set)))
 
-print(f"{len(domains_set)} domains added to {file_path} and sorted.")
+print(f"{len(domains_set)-origin_len} domains added to {file_path} and sorted.")

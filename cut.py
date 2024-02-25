@@ -11,11 +11,14 @@ final_output_file = "merged_block2.txt"
 
 # Create a set to store unique lines from both origin file and new domains
 unique_lines_combined = set()
+originSize = 0
 
 # Read the original file and store unique lines in the set
 with open(origin_file, "r") as origin_file:
     for line in origin_file:
         unique_lines_combined.add(line)
+
+originSize = len(unique_lines_combined)
 
 # Process block2.txt and store unique lines in the set
 with open(new_domains, "r") as block2_file:
@@ -29,7 +32,11 @@ with open(new_domains, "r") as block2_file:
         # Add the formatted line to the set
         unique_lines_combined.add(new_line)
 
+finalSize = len(unique_lines_combined)
+
 # Open the output file and write unique lines from both origin and new domains
 with open(final_output_file, "w") as output_file:
     for unique_line_combined in sorted(unique_lines_combined):
         output_file.write(unique_line_combined)
+
+print(f"Added {finalSize-originSize} domains to list")

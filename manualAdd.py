@@ -1,4 +1,7 @@
-# Script to input domains, load existing domains from file, append user domains, and sort the file
+###########################################################
+# Script to input domains, load existing domains from file,
+# append user domains, and sort the file
+###########################################################
 
 file_path = "merged_block.txt"
 domains_set = set()

@@ -23,6 +23,11 @@ This repository provides a list of domains for use with Pi-Hole software for con
 
 This repository is shared in the spirit of community and open-source collaboration. Users are advised to be aware of and comply with the terms of service of the services they interact with, including but not limited to Pi-Hole, GitHub, and the relevant content providers.
 
+# Credits and Notes
+
+A significant portion of the domain list in this repository was sourced from [Bon-Appetit/porn-domains](https://github.com/Bon-Appetit/porn-domains). We extend our gratitude to the contributors of that repository for their efforts.
+
+I combined their list with several others, as well as adding a significant number of domains myself. I will note that it is possible that their list is better maintained than my own and pretty much sticks to just adult content where I have expanded to adult "dating" and "stores".
 
 
 # Readme is a work in progress. 
